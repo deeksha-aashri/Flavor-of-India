@@ -1,0 +1,93 @@
+.n.d-inline-block align-text-top{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: pink;
+}
+.opening.image>img{
+    width: 100vw;
+}
+h5{
+display: flex;
+justify-content: center;
+color: rgb(140, 14, 64);
+margin-top: 20px;
+padding:10px;
+}
+h6{
+    font-family: serif;
+    font-size: larger;
+    margin-top: 20px;
+    padding:10px;
+    margin-right:15vw;
+    margin-left: 15vw;
+}
+.card-img-top{
+    height:40vh;
+    width:30vw;
+}
+.row.row-cols-1.row-cols-md-2.g-4{
+    margin-top: 20px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.card{
+    width:30vw;
+    
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+font-family: serif;
+color: rgb(129, 7, 102);
+margin:20px,20px,20px,20px
+}
+#contactUs{
+    
+    margin-left: 20vw;
+    margin-right:20vw;
+}
+.card-body{
+    font-family: serif;
+}
+#gallery>img>.img-fluid{
+    display: flex;
+ flex-direction: row;
+ flex-flow: wrap;
+}
+
+#gallery>.img-fluid{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    
+}
+.figure-caption{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-weight: 800;
+    font-family: serif;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(217, 122, 190);
+}
+
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    color: black;
+
+}
+#contactUs{
+    margin-top: 10vh;
+    margin-left: 15vw;
+    margin-right: 20vw;
+    margin-bottom: 10vh;
+    font-family: serif;
+    font-weight: 700;
+    font-size: larger;
+    padding:10px;
+}
