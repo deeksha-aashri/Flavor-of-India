@@ -5,12 +5,19 @@
 .opening.image>img{
     width: 100vw;
 }
-h5{
+h2{
 display: flex;
 justify-content: center;
 color: rgb(140, 14, 64);
 margin-top: 20px;
 padding:10px;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    color: rgb(140, 14, 64);
+    margin-top: 20px;
+    padding:10px; 
 }
 h6{
     font-family: serif;
@@ -49,10 +56,10 @@ margin:20px,20px,20px,20px
 .card-body{
     font-family: serif;
 }
-#gallery>img>.img-fluid{
-    display: flex;
+#gallery>{
+    /* display: flex;
  flex-direction: row;
- flex-flow: wrap;
+ flex-flow: wrap; */
 }
 
 #gallery>.img-fluid{
@@ -60,15 +67,45 @@ margin:20px,20px,20px,20px
     margin-bottom: 20px;
     margin-left: 20vw;
     margin-right: 20vw;
+    border: 1rem solid white;
+    
+}
+/* .pic{
+max-width: fit-content;
+max-height: fit-content;
+} */
+.pic{
+    display: flex;
+    flex-direction: row;
+   
+}
+.pic>.img-fluid{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    border: 1rem solid white;
     
 }
 .figure-caption{
-    margin-left: 20vw;
-    margin-right: 20vw;
-    font-weight: 800;
+    
+    font-weight: 500;
     font-family: serif;
+    font-size: xx-large;
+    color: white;
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: 10vw;
+    cursor: pointer;
 }
-
+hr{
+    
+        border: 1px solid rgb(255, 253, 253);
+      
+}
 .footer{
     text-align: center;
     background-color: rgb(217, 122, 190);
@@ -91,3 +128,9 @@ a:link,a:visited{
     font-size: larger;
     padding:10px;
 }
+.enquiry-form{
+    margin: auto;
+    text-align: center;
+    border: 2px solid blue;
+}
+

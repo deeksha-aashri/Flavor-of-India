@@ -6,31 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h5 style="font-size: large;">Waiting to hear from you! </h5>
-    <form class="row g-3">
+  <div  class= "enquiry-form">
+
+  
+    <h2 style="font-size: large;">Waiting to hear from you! </h2>
+    <form class="row g-3 form">
         <div class="col-md-6">
           <label for="inputname" class="form-label" style=" margin-left: 10vw;">Name</label>
-          <input type="name" class="form-control" style="width: 10vw; height: 4vh;margin-left: 3vw;margin-top: 2vh;" id="name">
+          <input type="name" class="form-control" style=" max-width: fit-content;
+          max-height: fit-content;margin-left: 3vw;margin-top: 2vh;" id="name">
         </div>
         <div class="col-md-6">
           <label for="inputemail" class="form-label" style="margin-left: 10vw;">Email</label>
-          <input type="name" class="form-control"style="width: 10vw; height: 4vh; margin-left: 3vw;margin-top: 2vh;" id="inputemail">
+          <input type="email" class="form-control"style="max-width: fit-content;
+          max-height: fit-content;; margin-left: 3vw;margin-top: 2vh;" id="inputemail">
         </div>
         <div class="col-12">
           <label for="inputAddress" class="form-label" style="margin-left: 10vw;">Phone</label>
-          <input type="text" class="form-control" id="inputAddress" style="width: 10vw; height: 4vh;margin-left: 3vw; margin-top: 2vh;" placeholder="Phone Number">
+          <input type="number" class="form-control" id="inputAddress" style="max-width: fit-content;
+          max-height: fit-content;margin-left: 3vw; margin-top: 2vh;" placeholder="Phone Number">
         </div>
         <div class="col-12">
-          <label for="inputAddress2" class="form-label"></label>
-          <input type="text" class="form-control" id="inputAddress2" style="width: 50vw;height: 50vh;margin-left: 15vw; margin-top: 2vh;" placeholder="How may we serve you?">
+          <label for="inputAddress2" class="form-label"  style="margin-left: 10vw;">Your message</label>
+          <input type="text" class="form-control" id="inputAddress2" style="max-width: fit-content;
+          max-height: fit-content;margin-left: 1rem; margin-top: 2vh;" placeholder="How may we serve you?">
         </div>
        
-        
+        <button type="submit" class="btn btn-primary" id='submit' style="margin-left: 15vw; margin-top: 2vh; margin-bottom: 2vh;">Submit</button>
          
-        
       </form>
-      <button type=" button submit" class="btn btn-primary" style="margin-left: 15vw; margin-top: 2vh;">Submit</button>
+      
+      </div>
+      
 </body>
+<script>
+  const submitBtn=document.getElementById('submit');
+  submitBtn.addEventListener('submit',()=>{console.log("submitted")})
+</script>
 </html>
