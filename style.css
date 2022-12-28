@@ -131,8 +131,20 @@ a:link,a:visited{
 }
 .enquiry-form{
     width: 30vw;
-    text-align: center;
-   margin-left: 42rem;
-    line-height: 2rem;
+    
+    /* line-height: 2rem;
+
+    position: relative; */
+    display: block;
+    margin: auto;
+    margin-top: 10rem;
 }
 
+.enq{
+    
+
+    background-image: url(https://images.pexels.com/photos/5874691/pexels-photo-5874691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.enq>h2{
+    background-color: aliceblue;
+}
