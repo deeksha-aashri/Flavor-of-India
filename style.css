@@ -85,13 +85,15 @@ max-height: fit-content;
     margin-left: 20vw;
     margin-right: 10vw;
     border: 1rem solid white;
-    
+    height: 30vh;
+    width: 25vw;
+    object-fit: cover;
 }
 .figure-caption{
-    
-    font-weight: 500;
     font-family: serif;
-    font-size: xx-large;
+    /* font-weight: 100;
+    
+    font-size: x-large; */
     color: white;
     display: block;
     margin: auto;
