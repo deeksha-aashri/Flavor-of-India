@@ -91,13 +91,14 @@ max-height: fit-content;
     margin-left: 20vw;
     margin-right: 10vw;
     border: 1rem solid white;
-    height: 30vh;
+    height: 40vh;
     width: 25vw;
     object-fit: cover;
 }
 .figure-caption{
     font-family: serif;
-    
+    width: 10vw;
+    text-align: center;
     color: white;
     display: block;
     margin: auto;
