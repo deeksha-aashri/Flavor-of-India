@@ -173,8 +173,34 @@ a:link,a:visited{
 
 
 @media only screen and (max-width: 600px) {
-    .pic>.img-fluid{
+    #gallery{
+        display: flex;
+        flex-direction: column;
+         
+    }
+    
+   
+    
+    
+    #gallery>.pic{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 70%;
+        width: 80%;
+        margin-right: 10rem;
+
+    }
+
+    #gallery>.pic>.img-fluid{
         border: 2px solid white;
+       width: 100%;
+    }
+    #gallery>.pic>.figure-caption{
+        width: 100%;
+        text-align: center;
+        margin-inline-start: 5rem;
     }
     .col>.card{
         width: auto;
