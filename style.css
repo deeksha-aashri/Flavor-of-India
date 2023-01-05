@@ -59,11 +59,7 @@ margin:20px,20px,20px,20px
 .card-body{
     font-family: serif;
 }
-#gallery>{
-    /* display: flex;
- flex-direction: row;
- flex-flow: wrap; */
-}
+
 
 #gallery>.img-fluid{
     margin-top: 20px;
@@ -196,12 +192,13 @@ a:link,a:visited{
 
     #gallery>.pic>.img-fluid{
         border: 2px solid white;
-       width: 100%;
+        width: 100%;
+        margin-left: 4rem;
+       
     }
     #gallery>.pic>.figure-caption{
-        width: 100%;
-        text-align: center;
         margin-inline-start: 5rem;
+    width: inherit;
     }
     .col>.card{
         width: auto;
